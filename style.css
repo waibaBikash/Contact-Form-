@@ -67,3 +67,17 @@ body{
   background: linear-gradient(270deg, #ff994f, #fa6d86);
   cursor: pointer;
 }
+.contact-left button img{
+  height: 15px;
+}
+.contact-right img{
+  width: 500px;
+}
+@media(max-width:800px){
+  .conta.contact-input{
+    width: 80vw;
+  }
+  .contact-right{
+    display: none;
+  }
+}
